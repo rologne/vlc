@@ -55,6 +55,8 @@ CPackSourceConfig.cmake
 include/vlc/libvlc_version.h
 
 # Ignore build dirs
+build
+contrib
 build-*
 contrib-*
 install-*
@@ -63,4 +65,3 @@ install-*
 projects/macosx/framework/MobileVLCKit/vlc-plugins.h
 projects/macosx/framework/MobileVLCKit/vlc-plugins.xcconfig
 extras/contrib/.*
-
